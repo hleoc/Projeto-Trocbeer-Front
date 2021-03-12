@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Boas vindas ao repositório do Projeto TROCBEER FRONT-END!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aqui serão encontrados os detalhes de como o projeto foi estruturado. #vqv 🚀
 
-## Available Scripts
 
-In the project directory, you can run:
+## Cenário fictício
 
-### `npm start`
+TROCBEER está lançando uma nova plataforma de delivery de cerverja. Nesta plataforma, desejamos listar os produtos cadastrados para venda, com a possibilidade de utilizar cupons com valores fixos e percentuais.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Desenvolver um mini-admin protegido por usuário e senha para gerenciamento dos produtos e
+cupons.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instruções para a instalação do projeto:
 
-### `npm test`
+1. Clone o repositório
+  * `git clone `.
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd Projeto-Trocbeer-`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instale as dependências
+  * `npm install`
 
-### `npm run build`
+3. Em outra aba do terminal renderize a aplicação do front-end
+  * `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## O que foi desenvolvido no front-end
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Nesse projeto é possível fazer o cadastramento e login de usuário administrador, onde apenas esse usúario poderá Acessar, Criar, Listar, Editar, Visualizar um produto ou cupom de desconto(ou `CRUD`, para os mais íntimos 😜).
 
-### `npm run eject`
+Para realizar qualquer tipo de alteração no banco de dados, como cadastro, edição ou exclusão de produtos ou cupom será necessário autenticar-se. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A autenticação deverá ser feita via `JWT`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Data de Entrega
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+O projeto tem até a seguinte data para ser entregue: `15/03/2021`.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Cobertura de testes unitários
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Foram cobertos alguns recursos do código com testes unitários com Jest
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Requisitos realizados
 
-### Analyzing the Bundle Size
+- Front-end e back-end desacoplados
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tecnologias utilizadas
 
-### Advanced Configuration
+- VSCode
+- JavaScript
+- React
+- NodeJS
+- MongoDB
+- Postman
+- Git/Github
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Melhorias Futuras
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Adicionar dados sensíveis ao arquivo de ambiente(.env)
+- Criação de cupons que sejam válidos apenas para certas categorias ou marcas
+- Carrinho de compras
+- Application build / pipeline
+- Distribuições para DEV e PROD
+- Database migrations
+- Servidor backend online com a aplicação rodando (https://www.000webhost.com)
