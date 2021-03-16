@@ -14,18 +14,15 @@ cupons.
 
 1. Crie uma pasta para onde o projeto será clonado
 
-2. Entre na pasta criada
-  * `Tanto o repositório de front quanto o de back estarão na mesma pasta`.
-
-3. Clone o repositório
+2. Clone o repositório
   * `git clone git@github.com:hleoc/Projeto-Trocbeer-Front.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd Projeto-Trocbeer-Front`
 
-4. Instale as dependências
+3. Instale as dependências
   * `npm install`
 
-5. Em outra aba do terminal renderize a aplicação do front-end
+4. Em outra aba do terminal renderize a aplicação do front-end
   * `npm start`
 
 
@@ -43,16 +40,18 @@ A autenticação deverá ser feita via `JWT`.
 O projeto tem até a seguinte data para ser entregue: `15/03/2021`.
 
 
-### Cobertura de testes unitários
-
-- Foram cobertos alguns recursos do código com testes unitários com Jest
-
-
 ### Requisitos realizados
 
 - Front-end e back-end desacoplados
-
-
+- Página para fazer Login
+- Carrinho de compras(Detail)
+- Campo para aplicação de um cupom de desconto
+- Admin:
+  - CRUD de usuários no admin(back-end)
+  - CRUD de cupons (back-end)
+  - Cupom com valor fixo (back-end)
+  - Cupom com valor percentual (back-end)
+  - CRUD de produtos (back-end)
 
 ### Tecnologias utilizadas
 
@@ -73,3 +72,4 @@ O projeto tem até a seguinte data para ser entregue: `15/03/2021`.
 - Distribuições para DEV e PROD
 - Database migrations
 - Servidor backend online com a aplicação rodando (https://www.000webhost.com)
+- Página com o detalhe do produto
