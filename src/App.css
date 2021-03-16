@@ -2,3 +2,95 @@
   margin: 0;
   padding: 0;
 }
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-product-list {
+  width: 200px;
+}
+
+.product-item {
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.button-item {
+  width: 2em;
+}
+
+.name-item {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn-comprar {
+  text-align: center;
+}
+
+.login-comprar {
+  text-align: center;
+}
+
+.login {
+  text-align: center;
+}
+
+.email {
+  border: 0;
+}
+
+.password {
+  border: 0;
+}
+
+.btn-login {
+  margin: 0 1em;
+  margin-top: 1em;
+  padding: 0 1em;
+}
+
+.btn-register {
+  margin: 0 1em;
+  margin-top: 1em;
+  padding: 0 1em;
+}
+
+.title-login {
+  margin-bottom: 1em;
+}
+
+.sub-title-login {
+  margin-bottom: 1em;
+}
+
+.title-detail {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail-cupom {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.detail-total {
+  margin-bottom: 1em;
+}
+
+.btn-finalizar-detail {
+  text-align: center;
+}

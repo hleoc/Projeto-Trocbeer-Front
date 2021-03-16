@@ -12,15 +12,20 @@ cupons.
 
 ## Instruções para a instalação do projeto:
 
-1. Clone o repositório
-  * `git clone `.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd Projeto-Trocbeer-`
+1. Crie uma pasta para onde o projeto será clonado
 
-2. Instale as dependências
+2. Entre na pasta criada
+  * `Tanto o repositório de front quanto o de back estarão na mesma pasta`.
+
+3. Clone o repositório
+  * `git clone git@github.com:hleoc/Projeto-Trocbeer-Front.git`.
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd Projeto-Trocbeer-Front`
+
+4. Instale as dependências
   * `npm install`
 
-3. Em outra aba do terminal renderize a aplicação do front-end
+5. Em outra aba do terminal renderize a aplicação do front-end
   * `npm start`
 
 
